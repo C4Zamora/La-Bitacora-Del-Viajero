@@ -1,5 +1,11 @@
 function Footer() {
-    return ( <h1>Hola mundssssssso</h1> );
+    return ( 
+        <>
+        <footer>
+            
+        </footer>
+        </>
+     );
 }
 
 export default Footer;

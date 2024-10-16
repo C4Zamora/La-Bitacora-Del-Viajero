@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+/* NavBar.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url('/src/assets/img/banner.jpeg');
+  background-size: cover; /* La imagen se escala para cubrir todo el fondo */
+  background-position: center; /* Centrar la imagen */
+  background-repeat: no-repeat;
+  position: relative; /* Importante para posicionar elementos dentro */
+}
+.overlay {
+  position: absolute;
+  top: 50%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-50%, -50%); /* Alinear exactamente al centro */
+  text-align: center;
+  color: white; /* Letra blanca */
+}
+
+.overlay h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 20px 0; /* Espaciado superior */
+  position: fixed; /* Fija la barra en la parte superior */
+  top: 0;
+  left: 0;
+  width: 100%; /* Abarca todo el ancho */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para distinguir la barra */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+  color: #163a0c;
+}
+
+.login-button {
+  padding: 10px 35px;
+  font-size: 1rem;
+  background-color: #669c45;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #2e6d07;
+}

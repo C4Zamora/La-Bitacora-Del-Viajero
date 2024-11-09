@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.body-home {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Ajusta la altura para que solo ocupe el 70% de la pantalla */
+  display: flex;
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center;
+  background: url('/src/img/banner.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  text-align: center;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.login-button {
+  padding: 10px 40px;
+  font-size: 1rem;
+  background-color: #40744d;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #73a07e;
+  transform: scale(1.05);
+}
+
+.section-blog {
+  max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e6fae4e0; /* Fondo suave */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo del título */
+.section-blog h2 {
+  font-size: 2em;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo de los párrafos */
+.section-blog p {
+  margin-bottom: 15px;
+}
+
+/* Estilo de la lista */
+.section-blog ul {
+  list-style-type: none; /* Eliminamos los puntos de la lista */
+  padding-left: 20px;
+}
+
+.section-blog li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  font-size: 1em;
+}
+
+/* Iconos al inicio de cada item */
+.section-blog li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  color: #3498db; /* Color para el icono */
+  font-size: 1.2em;
+}
+.section-gallery {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section-gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Columnas flexibles */
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1200px; /* Máximo ancho para centrado */
+  grid-auto-rows: 70px; /* Establecer una fila base */
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%; /* Asegura que las imágenes ocupen el alto disponible */
+  object-fit: cover; /* Hace que la imagen cubra el área sin distorsionarse */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  grid-row: span 3; /* Hace que las imágenes por defecto ocupen 3 filas */
+}
+
+/* Para imágenes con diferentes alturas */
+.gallery-grid img:nth-child(2n) {
+  grid-row: span 4; /* Las imágenes en posiciones pares ocupan más filas */
+}
+
+.gallery-grid img:nth-child(3n) {
+  grid-row: span 2; /* Las imágenes en posiciones impares ocupan menos filas */
+}
+
+/* Efecto de zoom al pasar el ratón */
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}

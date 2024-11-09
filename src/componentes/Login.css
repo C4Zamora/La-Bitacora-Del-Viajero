@@ -1,0 +1,88 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.form-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.form-container form {
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3a7448;
+}
+
+.form-container p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: auto; /* Esto hace que el ancho del botón se ajuste al contenido */
+    padding: 15px 50px; /* Aumenta el relleno para hacerlo más ancho y alto */
+    margin: 20px auto; /* Centra el botón y le da un margen superior e inferior */
+    display: block; /* Hace que el botón sea un bloque para que margin auto funcione */
+    background-color: #3a7448;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.image-container {
+    width: 50%;
+    position: relative;
+    overflow: hidden; /* Evita que la imagen se desborde */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen cubra todo el espacio sin deformarse */
+    object-position: center; /* Centra la imagen si se recorta */
+}

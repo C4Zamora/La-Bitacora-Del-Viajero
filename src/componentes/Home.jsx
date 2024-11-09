@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import '../componentes/Home.css'
+import Footer from '../componentes/Footer'; // Importa el componente Header
 
 export const Home = () => {
   return (
@@ -56,6 +57,15 @@ export const Home = () => {
   
         </div>
       </section>
+
+      <section className="">
+
+      </section>
+
+      <Footer> </Footer>
+
+      
+     
     </main>
   );
 }

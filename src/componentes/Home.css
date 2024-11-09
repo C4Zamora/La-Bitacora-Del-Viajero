@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  height: 100vh; /* Ajusta la altura para que solo ocupe el 70% de la pantalla */
+  height: 90vh; /* Ajusta la altura para que solo ocupe el 70% de la pantalla */
   display: flex;
   justify-content: center; /* Centra el contenido verticalmente */
   align-items: center;

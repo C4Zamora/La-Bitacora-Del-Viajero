@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;  /* Necesario para que la imagen se posicione dentro del footer */
+    background-color: #0f2514d8;
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-nav a {
+    color: #8cd5ff;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color: #1e7acf;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.footer-image {
+    position: absolute;      /* Posiciona la imagen de forma absoluta */
+    bottom: 10px;            /* Ajusta la distancia desde la parte inferior */
+    right: 10px;             /* Ajusta la distancia desde la parte derecha */
+    width: 250px;             /* Ajusta el tamaño de la imagen */
+    height: auto;
+}

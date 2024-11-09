@@ -33,32 +33,38 @@ body, html {
     text-align: center;
     margin-bottom: 10px;
     color: #3a7448;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
 }
 
 .form-container p {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 17px;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    
 }
+.form-group ::placeholder{
+    font-size: 15px;
+    color: #0d2404;   
 
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
 }
 
 .form-group input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #89c76c;
+    border-radius: 20px;
+    background-color: #dae5dd;
+    
 }
 
-button {
+.button-form {
     width: auto; /* Esto hace que el ancho del botón se ajuste al contenido */
-    padding: 15px 50px; /* Aumenta el relleno para hacerlo más ancho y alto */
+    padding: 10px 100px; /* Aumenta el relleno para hacerlo más ancho y alto */
     margin: 20px auto; /* Centra el botón y le da un margen superior e inferior */
     display: block; /* Hace que el botón sea un bloque para que margin auto funcione */
     background-color: #3a7448;
@@ -71,9 +77,48 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #0d2404;
 }
 
+
+/* Estilos del enlace de registro en línea */
+.registrate-container {
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /* Espacio entre el texto y el enlace */
+  }
+  
+  .registrate-container p {
+    color: #777;
+    margin: 0; /* Eliminar margen para alineación */
+  }
+  
+  .registrate-container h3 {
+    color: #72927a;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .registrate-container h3:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilo del contenedor de la imagen */
+  .image-container {
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
 .image-container {
     width: 50%;
     position: relative;

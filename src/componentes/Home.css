@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 .body-home {
-  margin: 0;
+  margin-bottom: 130px;
   padding: 0;
   font-family: Arial, sans-serif;
-  height: 90vh; /* Ajusta la altura para que solo ocupe el 70% de la pantalla */
+  height: 100vh; /* Ajusta la altura para que solo ocupe el 70% de la pantalla */
   display: flex;
   justify-content: center; /* Centra el contenido verticalmente */
   align-items: center;
@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  overflow: hidden; /* Para que el SVG no se salga del contenedor */
 }
 
 .overlay {
@@ -26,6 +27,14 @@
   font-family: 'Kaushan Script', cursive;
   font-weight: 400;
   font-style: normal;
+}
+.wave {
+  position: absolute;
+  bottom: -0px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 
 .navbar {
@@ -73,8 +82,8 @@
 }
 
 .section-blog {
-  max-width: 800px;
-    margin: 40px auto;
+    max-width: 800px;
+    margin: 50px auto;
     padding: 20px;
     background-color: #e6fae4e0; /* Fondo suave */
     border-radius: 8px;

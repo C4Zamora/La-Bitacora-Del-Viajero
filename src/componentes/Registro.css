@@ -1,0 +1,109 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro-container {
+    display: flex;
+    height: 100vh;
+    background-image: url('/src/img/Hojas2.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    animation: mover-fondo 20s infinite; /* Llama a la animación del fondo */
+}
+
+@keyframes mover-fondo {
+    0% {
+        background-position: 0% -100%; /* Empieza desde la parte superior de la imagen (fuera de vista) */
+      }
+      50% {
+        background-position: 50% 100%; /* Mueve la imagen hacia la mitad horizontal y hacia la parte inferior */
+      }
+      100% {
+        background-position: 100% 200%; /* Mueve la imagen completamente hacia abajo, más allá del área visible */
+      }
+     
+  }
+
+.registro-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    background-color: #F7F7F7; /* Fondo de la página */
+  
+
+}
+
+.form-registro-container {
+    width: 400px; /* Ajusta el ancho de la tarjeta */
+    height: 500px;
+    background-color: #fcfcfcda; /* Fondo azul */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(169, 245, 124, 0.603); /* Sombra sutil */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 30px;
+    overflow: hidden; /* Asegura que los bordes redondeados no se vean afectados */
+}
+
+
+.form-registro-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3a7448;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+.form-registro-container p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    
+}
+.form-group ::placeholder{
+    font-size: 15px;
+    color: #0d2404;   
+
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #89c76c;
+    border-radius: 20px;
+    background-color: #dae5dd;
+    
+}
+
+.button-form {
+    width: auto; /* Esto hace que el ancho del botón se ajuste al contenido */
+    padding: 10px 100px; /* Aumenta el relleno para hacerlo más ancho y alto */
+    margin: 50px auto; /* Centra el botón y le da un margen superior e inferior */
+    display: block; /* Hace que el botón sea un bloque para que margin auto funcione */
+    background-color: #3a7448;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+button:hover {
+    background-color: #0d2404;
+}
+
+
+
+
+
+

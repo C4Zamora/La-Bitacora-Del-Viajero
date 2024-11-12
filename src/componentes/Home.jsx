@@ -15,10 +15,10 @@ export const Home = () => {
               <a href="/">Inicio</a>
             </li>
             <li>
-              <a href="/about">Sobre Nosotros</a>
+              <a href="#about">Sobre Nosotros</a>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <a href="#galeria">Galeria</a>
             </li>
           </ul>
           <Link to="/login">
@@ -73,7 +73,7 @@ export const Home = () => {
       </div>
 
       {/* Section del Blog que aparece después de la imagen */}
-      <section className="section-blog">
+      <section id="about" className="section-blog">
         <h2>Blog de viajes | La Bitácora Del Viajero 🌎✈️</h2>
 
         <p><strong>¡Bienvenidos a La Bitácora Del Viajero!</strong></p>
@@ -88,7 +88,9 @@ export const Home = () => {
     <p><strong>¡Únete a nuestra comunidad de viajeros</strong> y prepárate para ver el mundo con nuevos ojos!</p>
 
         </section>
-      <section className="section-gallery">
+        
+      <section id="galeria" className="section-gallery">
+
         <h2>Galería de Fotos</h2>
         <div className="gallery-grid">
           <img src="/src/img/Lugar1.jpg" alt="Foto 1" />

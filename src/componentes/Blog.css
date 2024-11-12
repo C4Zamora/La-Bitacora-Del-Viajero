@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  }
+  
+  #blog-texto {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+ /* Estilos del banner */
+.banner {
+    width: 90vw; /* Ocupa el 90% del ancho de la pantalla */
+    height: 50vh; /* Ocupa el 50% de la altura de la pantalla */
+    border-radius: 30px;
+    margin: 5%;
+    overflow: hidden; /* Asegura que no se vean partes de la imagen fuera del contenedor */
+    position: relative; /* Necesario para posicionar la imagen de forma absoluta */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ /* Estilos de la imagen dentro del banner */
+.banner img {
+    width: 100%; /* La imagen ocupa el 100% del ancho */
+    height: 100%; /* La imagen ocupa el 100% de la altura */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin distorsión */
+    position: absolute; /* Esto asegura que la imagen esté centrada dentro del contenedor */
+    top: 50%; /* Desplaza la imagen 50% desde la parte superior */
+    left: 50%; /* Desplaza la imagen 50% desde la parte izquierda */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+  }
+
+  .botones-select {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);  /* Centra los botones horizontalmente */
+  display: flex;
+  gap: 10px;  /* Espacio entre los botones */
+  z-index: 10;  /* Asegura que los botones se vean por encima de la imagen */
+}
+
+.boton-select1{
+    background-color: #40744d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3PX;
+    cursor: pointer;
+  }
+  .boton-select2{
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: px;
+    cursor: pointer;
+  }
+  
+  .boton-select:hover{
+    background-color: #73a07e;
+    transform: scale(1.05);
+  }

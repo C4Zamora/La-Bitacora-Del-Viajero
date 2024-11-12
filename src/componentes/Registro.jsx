@@ -1,6 +1,7 @@
 import React from "react";
 import '../componentes/Registro.css'
 import { useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 

@@ -4,6 +4,7 @@ import { Home} from "../componentes/Home";
 import { Login} from "../componentes/Login";
 import { Registro} from "../componentes/Registro";
 import { Blog} from "../componentes/Blog";
+import { Posts } from "../componentes/Posts";
 
 
 export const router = createBrowserRouter([
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
   {
     path: "/blog",
     Component: Blog,
+  },
+  {
+    path: "/Posts",
+    Component: Posts,
   },
 
 ]);

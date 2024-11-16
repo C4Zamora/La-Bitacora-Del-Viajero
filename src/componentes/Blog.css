@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Kaushan+Script&display=swap');
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -12,6 +13,9 @@
     z-index: 10;
     background-color: #F7F7F7;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+    color: #3a7448;
+    
   }
   
   #blog-texto {

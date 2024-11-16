@@ -1,0 +1,30 @@
+.post-container {
+    padding: 20px;
+}
+
+/* Flexbox para alinear dos posts por fila */
+.posts-row {
+    display: flex;
+    flex-wrap: wrap; /* Permite mover elementos a una nueva fila si es necesario */
+    gap: 20px; /* Espaciado entre elementos */
+    justify-content: space-between; /* Espaciado uniforme en cada fila */
+}
+
+/* Cada tarjeta de post */
+.post-ver {
+    flex: 0 0 48%; /* Ocupa aproximadamente el 48% del ancho del contenedor */
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaciado entre filas */
+}
+
+/* Imagen dentro del post */
+.post-ver img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}

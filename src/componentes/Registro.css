@@ -59,10 +59,12 @@
     font-size: 2.5rem;
 }
 
+
 .form-registro-container p {
     text-align: center;
     margin-bottom: 30px;
     font-size: 17px;
+    
 }
 
 .form-group {
@@ -87,7 +89,7 @@
 .button-form {
     width: auto; /* Esto hace que el ancho del botón se ajuste al contenido */
     padding: 10px 100px; /* Aumenta el relleno para hacerlo más ancho y alto */
-    margin: 50px auto; /* Centra el botón y le da un margen superior e inferior */
+    margin: 20px auto; /* Centra el botón y le da un margen superior e inferior */
     display: block; /* Hace que el botón sea un bloque para que margin auto funcione */
     background-color: #3a7448;
     color: #fff;

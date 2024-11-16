@@ -35,7 +35,7 @@ export const Login = () => {
 
         // Guarda los datos del usuario en localStorage si la autenticación fue exitosa
         localStorage.setItem("user", JSON.stringify(user));
-        navigate("/blog");
+        navigate("/La-Bitacora-Del-Viajero/blog");
       } else {
         alert("Credenciales incorrectas. Inténtalo de nuevo.");
       }
@@ -46,7 +46,7 @@ export const Login = () => {
   };
 
   const goRegister = () => {
-    navigate("/registro");
+    navigate("/La-Bitacora-Del-Viajero/registro");
   }
 
 
@@ -94,7 +94,7 @@ export const Login = () => {
 
       {/* Lado derecho: imagen */}
       <div className="image-container">
-        <img src="/La-Bitacora-Del-Viajero/src/img/login.jpeg" alt="Imagen de fondo" />
+        <img src="img/login.jpeg" alt="Imagen de fondo" />
       </div>
     </div>
     

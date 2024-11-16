@@ -19,6 +19,8 @@ html {
   overflow: hidden; /* Para que el SVG no se salga del contenedor */
 }
 
+
+
 .overlay {
   text-align: center;
   color: white;

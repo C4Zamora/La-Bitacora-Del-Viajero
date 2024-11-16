@@ -9,6 +9,7 @@ export const Home = () => {
   return (
     <main>
       <div className="body-home">
+      
         <nav className="navbar">
           <ul className="nav-links">
             <li>
@@ -21,7 +22,7 @@ export const Home = () => {
               <a href="#galeria">Galeria</a>
             </li>
           </ul>
-          <Link to="/login">
+          <Link to="/La-Bitacora-Del-Viajero/login">
             <button className="login-button">Ingresar</button>
           </Link>
         </nav>
@@ -93,12 +94,12 @@ export const Home = () => {
 
         <h2>Galería de Fotos</h2>
         <div className="gallery-grid">
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar1.jpg" alt="Foto 1" />
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar2.jpg" alt="Foto 6" />
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar8.jpg" alt="Foto 8" />
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar4.jpg" alt="Foto 4" />
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar7.jpg" alt="Foto 5" />
-          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar6.jpg" alt="Foto 6" />
+          <img src="img/Lugar1.jpg" alt="Foto 1" />
+          <img src="img/Lugar2.jpg" alt="Foto 6" />
+          <img src="img/Lugar8.jpg" alt="Foto 8" />
+          <img src="img/Lugar4.jpg" alt="Foto 4" />
+          <img src="img/Lugar7.jpg" alt="Foto 5" />
+          <img src="img/Lugar6.jpg" alt="Foto 6" />
   
         </div>
       </section>

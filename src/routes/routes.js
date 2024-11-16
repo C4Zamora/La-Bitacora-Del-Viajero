@@ -13,19 +13,19 @@ export const router = createBrowserRouter([
     Component: Home,
   },
   {
-    path: "/login",
+    path: "/La-Bitacora-Del-Viajero/login",
     Component: Login,
   },
   {
-    path: "/registro",
+    path: "/La-Bitacora-Del-Viajero/registro",
     Component: Registro,
   },
   {
-    path: "/blog",
+    path: "/La-Bitacora-Del-Viajero/blog",
     Component: Blog,
   },
   {
-    path: "/Posts",
+    path: "/La-Bitacora-Del-Viajero/Posts",
     Component: Posts,
   },
   {

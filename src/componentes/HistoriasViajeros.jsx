@@ -9,25 +9,25 @@ const HistoriasViajeros = () => {
             id: 1,
             titulo: 'Aventura en los Alpes',
             descripcion: 'Una experiencia inolvidable en las montañas.',
-            imagen: '/La-Bitacora-Del-Viajero/src/img/Alpes.jpg'
+            imagen: 'img/Alpes.jpg'
         },
         {
             id: 2,
             titulo: 'Descubriendo el Amazonas',
             descripcion: 'Una travesía por la selva amazónica.',
-            imagen: '/La-Bitacora-Del-Viajero/src/img/Amazonas.jpg'
+            imagen: 'img/Amazonas.jpg'
         },
         {
             id: 3,
             titulo: 'Cultura en Japón',
             descripcion: 'Sumergiéndome en la tradición japonesa.',
-            imagen: '/La-Bitacora-Del-Viajero/src/img/Japon.jpg'
+            imagen: 'img/Japon.jpg'
         },
         {
             id: 4,
             titulo: 'Safari en Kenia',
             descripcion: 'Un encuentro cercano con la fauna salvaje.',
-            imagen: '/La-Bitacora-Del-Viajero/src/img/Kenia.jpeg'
+            imagen: "img/Lugar1.jpg"
         },
         // Puedes añadir más historias aquí
     ];

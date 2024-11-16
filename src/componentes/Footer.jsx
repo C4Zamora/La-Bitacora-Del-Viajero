@@ -21,7 +21,7 @@ export const Footer = () => {
         </div>
     </div>
     <p class="footer-copy">&copy; 2024 Explora el Mundo - Todos los derechos reservados</p>
-    <img src="/src/img/Hojas4.png" alt="Imagen" class="footer-image" />
+    <img src="/La-Bitacora-Del-Viajero/src/img/Hojas4.png" alt="Imagen" class="footer-image" />
 </footer>
     
     </main>

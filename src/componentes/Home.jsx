@@ -93,12 +93,12 @@ export const Home = () => {
 
         <h2>Galería de Fotos</h2>
         <div className="gallery-grid">
-          <img src="/src/img/Lugar1.jpg" alt="Foto 1" />
-          <img src="/src/img/Lugar2.jpg" alt="Foto 2" />
-          <img src="/src/img/Lugar8.jpg" alt="Foto 8" />
-          <img src="/src/img/Lugar4.jpg" alt="Foto 4" />
-          <img src="/src/img/Lugar7.jpg" alt="Foto 5" />
-          <img src="/src/img/Lugar6.jpg" alt="Foto 6" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar1.jpg" alt="Foto 1" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar2.jpg" alt="Foto 6" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar8.jpg" alt="Foto 8" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar4.jpg" alt="Foto 4" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar7.jpg" alt="Foto 5" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/Lugar6.jpg" alt="Foto 6" />
   
         </div>
       </section>

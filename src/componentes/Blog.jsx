@@ -76,13 +76,13 @@ export const Blog = () => {
 
       <nav className="navbar">
         <h1 id="blog-texto">La bitácora del viajero</h1>
-        <Link to="/">
+        <Link to="/La-Bitacora-Del-Viajero">
             <button className="login-button">Inicio</button>
           </Link>
       </nav>
       <div className="banner">
         <div>
-          <img src="/src/img/banner.jpg" alt="Slide 1" />
+          <img src="/La-Bitacora-Del-Viajero/src/img/banner.jpg" alt="Slide 1" />
         </div>
         <div className="botones-select">
           <Link to="/blog"><button className="boton-select1">Mis Post</button></Link>

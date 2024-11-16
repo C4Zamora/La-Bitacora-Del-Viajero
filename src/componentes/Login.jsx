@@ -94,7 +94,7 @@ export const Login = () => {
 
       {/* Lado derecho: imagen */}
       <div className="image-container">
-        <img src="/src/img/login.jpeg" alt="Imagen de fondo" />
+        <img src="/La-Bitacora-Del-Viajero/src/img/login.jpeg" alt="Imagen de fondo" />
       </div>
     </div>
     

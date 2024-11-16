@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import '../componentes/Home.css'
-import Footer from '../componentes/Footer'; // Importa el componente Header
+import Footer from '../componentes/Footer'; 
 import HistoriasViajeros from "./HistoriasViajeros";
 
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../componentes/Blog.css';
-
+import Footer from '../componentes/Footer'; 
 
 
     
@@ -20,6 +20,9 @@ export const Posts = () => {
         <main>
           <nav className="navbar">
         <h1 id="blog-texto">La bitácora del viajero</h1>
+        <Link to="/">
+            <button className="login-button">Inicio</button>
+          </Link>
       </nav>
       <div className="banner">
         <div>
@@ -47,6 +50,7 @@ export const Posts = () => {
                     ))
                 )}
             </div>
+            <Footer></Footer>
         </main>
     );
 };

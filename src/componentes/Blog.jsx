@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import '../componentes/Blog.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from "./Footer";
 
 
 export const Blog = () => {
@@ -75,6 +76,9 @@ export const Blog = () => {
 
       <nav className="navbar">
         <h1 id="blog-texto">La bitácora del viajero</h1>
+        <Link to="/">
+            <button className="login-button">Inicio</button>
+          </Link>
       </nav>
       <div className="banner">
         <div>
@@ -132,6 +136,8 @@ export const Blog = () => {
             )
           )}
         </div>
+
+        <Footer></Footer>
       
     </main>
   );

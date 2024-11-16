@@ -9,7 +9,7 @@ import { Posts } from "../componentes/Posts";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/La-Bitacora-Del-Viajero",
     Component: Home,
   },
   {
@@ -28,5 +28,8 @@ export const router = createBrowserRouter([
     path: "/Posts",
     Component: Posts,
   },
+  {
+    basename: "/La-Bitacora-Del-Viajero", // Cambia esto según el nombre de tu repositorio
+  }
 
 ]);

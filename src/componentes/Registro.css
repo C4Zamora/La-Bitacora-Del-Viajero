@@ -8,7 +8,7 @@
 .registro-container {
     display: flex;
     height: 100vh;
-    background-image: url('/src/img/Hojas2.png');
+    background: url('/src/Hojas2.png');
     background-repeat: repeat;
     background-attachment: fixed;
     animation: mover-fondo 20s infinite; /* Llama a la animación del fondo */

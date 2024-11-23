@@ -4,7 +4,7 @@ import '../componentes/Login.css'
 import { useNavigate } from "react-router-dom";
 
 export const Login = () => {
-  const urlApi = "https://6622071827fcd16fa6c8818c.mockapi.io/api/v1";
+  const urlApi = "https://6740fd35d0b59228b7f1f288.mockapi.io/api/v1";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();

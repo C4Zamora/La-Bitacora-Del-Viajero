@@ -6,7 +6,7 @@ import Footer from '../componentes/Footer';
 
     
 export const Posts = () => {
-    const urlApi = "https://6622071827fcd16fa6c8818c.mockapi.io/api/v1";
+    const urlApi = "https://6740fd35d0b59228b7f1f288.mockapi.io/api/v1";
     const [posts, setPosts] = useState([]);
 
     // Fetch all posts on component mount
@@ -20,7 +20,7 @@ export const Posts = () => {
         <main>
           <nav className="navbar">
         <h1 id="blog-texto">La bitácora del viajero</h1>
-        <Link to="/La-Bitacora-Del-Viajero">
+        <Link to="/La-Bitacora-Del-Viajero/">
             <button className="login-button">Inicio</button>
           </Link>
       </nav>

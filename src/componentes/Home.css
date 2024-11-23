@@ -11,7 +11,7 @@ html {
   display: flex;
   justify-content: center; /* Centra el contenido verticalmente */
   align-items: center;
-  background: url('/src/img/banner.jpeg');
+  background: url('/src/banner.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

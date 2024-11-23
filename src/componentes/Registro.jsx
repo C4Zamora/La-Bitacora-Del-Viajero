@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 export const Registro = () => {
-  const urlApi = "https://6622071827fcd16fa6c8818c.mockapi.io/api/v1";
+  const urlApi = "https://6740fd35d0b59228b7f1f288.mockapi.io/api/v1";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -40,11 +40,11 @@ export const Registro = () => {
       },
       body: JSON.stringify(data),
     });
-    navigate("/login");
+    navigate("/La-Bitacora-Del-Viajero/login");
   };
 
   const goLogin = () => {
-    navigate("/login");
+    navigate("/La-Bitacora-Del-Viajero/login");
   };
 
 
